@@ -1,1 +1,174 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kevin Palinkas</title>
+<meta name="description" content="Kevin Palinkas – Gründer und Geschäftsführer von SPARROW42, Manufaktur für cyberRESILIENZ. Zuvor CIO eines produzierenden Mittelständlers.">
+<meta property="og:title" content="Kevin Palinkas">
+<meta property="og:description" content="Gründer und Geschäftsführer von SPARROW42, Manufaktur für cyberRESILIENZ.">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://www.kevinpalinkas.de/">
+<style>
+  :root{
+    --ground:#0E1A22;
+    --grid:rgba(142,186,206,.085);
+    --line:#2C4654;
+    --text:#DCE7ED;
+    --dim:#7D97A5;
+    --mark:#7FD1E8;
+    --mono: ui-monospace, "SFMono-Regular", "Cascadia Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background-color:var(--ground);
+    background-image:
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size:28px 28px;
+    color:var(--text);
+    font-family:var(--mono);
+    font-size:15px;
+    line-height:1.65;
+    padding:clamp(1.5rem,5vw,4rem) 16px;
+  }
+  .plan{
+    max-width:44rem;
+    margin:0 auto;
+    border:1px solid var(--line);
+    background:rgba(14,26,34,.88);
+    padding:clamp(1.5rem,5vw,3rem);
+    position:relative;
+  }
+  .plan::before,.plan::after{
+    content:"";
+    position:absolute;
+    width:11px;height:11px;
+    border:1px solid var(--line);
+    background:var(--ground);
+  }
+  .plan::before{top:-6px;left:-6px}
+  .plan::after{bottom:-6px;right:-6px}
 
+  h1{
+    font-size:clamp(1.65rem,6vw,2.5rem);
+    font-weight:700;
+    line-height:1.15;
+    margin:0;
+  }
+  .role{color:var(--dim);margin:.5rem 0 0;font-size:.92rem;line-height:1.6}
+
+  hr{border:0;border-top:1px solid var(--line);margin:1.75rem 0}
+
+  .lede{margin:0;max-width:58ch}
+  .lede p{margin:0 0 .9rem}
+  .lede p:last-child{margin-bottom:0}
+
+  .block{margin-top:1.75rem}
+  .block h2{
+    font-size:.88rem;
+    font-weight:700;
+    color:var(--mark);
+    margin:0 0 .6rem;
+  }
+  .grid{
+    display:grid;
+    grid-template-columns:6.5rem 1fr;
+    gap:.18rem 1.25rem;
+    font-size:.92rem;
+  }
+  .grid span:nth-child(odd){color:var(--dim);font-variant-numeric:tabular-nums}
+  .prose{font-size:.92rem;margin:0;max-width:58ch;color:var(--text)}
+
+  ul.links{list-style:none;margin:0;padding:0;font-size:.95rem}
+  ul.links li{margin-bottom:.3rem}
+  ul.links li::before{content:"└ ";color:var(--line)}
+
+  a{color:var(--mark);text-decoration:none;border-bottom:1px dotted var(--mark)}
+  a:hover{color:var(--ground);background:var(--mark);border-bottom-color:transparent}
+  a:focus-visible{outline:2px solid var(--mark);outline-offset:3px}
+
+  footer{
+    margin-top:2.5rem;
+    padding-top:1.25rem;
+    border-top:1px solid var(--line);
+    color:var(--dim);
+    font-size:.78rem;
+    line-height:1.8;
+  }
+  footer h2{font-size:.78rem;font-weight:700;color:var(--dim);margin:0 0 .5rem}
+  footer p{margin:0;max-width:72ch}
+  footer a{color:var(--dim);border-bottom-color:var(--line)}
+  footer a:hover{color:var(--ground);background:var(--dim)}
+
+  @media (max-width:34rem){
+    .grid{grid-template-columns:1fr;gap:0}
+    .grid span:nth-child(odd){margin-top:.55rem}
+  }
+</style>
+</head>
+<body>
+<main class="plan">
+
+  <h1>Kevin Palinkas</h1>
+  <p class="role">Gründer und Geschäftsführer von SPARROW42, Manufaktur für cyberRESILIENZ · Zuvor CIO eines produzierenden Mittelständlers</p>
+
+  <hr>
+
+  <div class="lede">
+    <p>Angefangen mit einem Heimnetzwerk aus BNC-Kabeln, um Age of Empires im Multiplayer spielen zu können. Danach zwanzig Jahre IT-Infrastruktur, vom Systemadministrator bis zur Verantwortung für die gesamte IT eines Industriekonzerns samt SAP.</p>
+    <p>Seit 2025 bin ich Unternehmer. Mit SPARROW42 berate ich Betriebe in Süddeutschland zu cyberRESILIENZ – herstellerunabhängig und mit der Einsatzlogik, die ich in der Feuerwehr gelernt habe: erst die Lage, dann die Entscheidung.</p>
+  </div>
+
+  <section class="block">
+    <h2>Stationen</h2>
+    <div class="grid">
+      <span>seit 2025</span><span>Gründer und Geschäftsführer, SPARROW42</span>
+      <span>2022–2025</span><span>Leitung IT und ERP/SAP, AL-KO SE</span>
+      <span>2020–2022</span><span>Abteilungsleitung IT-Infrastruktur, AL-KO SE</span>
+      <span>2018–2020</span><span>Teamleitung Backendbetrieb, AL-KO SE</span>
+      <span>2017–2018</span><span>Teamleitung produktionsnahe IT, TALIS</span>
+      <span>2015–2017</span><span>Teamleitung Client- und Usermanagement, WALDNER</span>
+      <span>2012–2015</span><span>System Engineer, PAUL HARTMANN AG</span>
+      <span>2008–2012</span><span>Systemadministrator, Albert Ziegler GmbH</span>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Qualifikation</h2>
+    <div class="grid">
+      <span>2023</span><span>Systemischer Berater und Coach, Institut für Coaching und Organisationsberatung</span>
+      <span>2015</span><span>Staatlich geprüfter Informatiker, DAA-Technikum</span>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Bücher und Vorträge</h2>
+    <p class="prose">Autor des Businessromans »Das Spinnennetz« und Mitautor der »Führungshilfen für den Cyber-Notfall«. Co-Dozent der NIS-2-Pflichtschulung für Geschäftsleitungen bei der IHK, regelmäßig als Redner zu Cyber-Krisen und Führung unterwegs.</p>
+  </section>
+
+  <section class="block">
+    <h2>Ehrenamt</h2>
+    <p class="prose">Seit über zwanzig Jahren in der Feuerwehr: Gruppenführer der technischen Wehr, Leiter Atemschutz, zuvor stellvertretender Leiter einer Unterstützungsgruppe Örtliche Einsatzleitung im Katastrophenschutz.</p>
+  </section>
+
+  <section class="block">
+    <h2>Kontakt</h2>
+    <ul class="links">
+      <li><a href="https://www.sparrow42.com/">sparrow42.com</a></li>
+      <li><a href="https://www.linkedin.com/in/kevin-palinkas/">linkedin.com/in/kevin-palinkas</a></li>
+      <li><a href="mailto:chefsache@sparrow42.com">chefsache@sparrow42.com</a></li>
+      <li><a href="tel:+4973171804800">+49 731 71804800</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <h2>Impressum</h2>
+    <p>palinkas.digital e.&nbsp;K., Inhaber Kevin Palinkas · Lise-Meitner-Straße 9, 89081 Ulm · <a href="mailto:chefsache@sparrow42.com">chefsache@sparrow42.com</a> · <a href="tel:+4973171804800">+49 731 71804800</a> · Amtsgericht Ulm, HRA 729192 · USt-IdNr. DE369158488 · <a href="https://www.sparrow42.com/rechtliches#datenschutz">Datenschutz</a></p>
+  </footer>
+
+</main>
+</body>
+</html>
